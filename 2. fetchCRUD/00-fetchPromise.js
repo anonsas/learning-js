@@ -1,5 +1,6 @@
-// fetch ALWAYS SUCCEEDS
-// IT WILL FAIL ONLY IF WE HAVE NETWORK CONNECTION
+// fetch ALWAYS SUCCEEDS IT WILL FAIL ONLY WITH ERRORS: 
+//400-499 - Client Error Responses. 
+//500-599 - Server Error Responses.
 
 const getAllPosts = () => {
   fetch('https://jsonplaceholder.typicode.com/posts')
