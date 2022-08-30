@@ -1,3 +1,7 @@
+// In async/await syntax, we need to wrap the axios.get() function call within an async function. 
+// We encase the method call with a try... catch block so that we can capture any errors, 
+// similar to the .catch() method we used in the Promise version.
+
 // GET ALL POSTS
 const getPosts = () => {
   axios
